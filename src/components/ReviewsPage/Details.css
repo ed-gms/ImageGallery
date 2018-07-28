@@ -9,7 +9,7 @@
   top: 0%;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 678px) {
   .button {
     position: absolute;
     left: 0px;
