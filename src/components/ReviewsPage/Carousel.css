@@ -1,0 +1,68 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-container h2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  top: 28%;
+  left: 75px;
+}
+
+.counter {
+  position: absolute;
+  top: 32%;
+  left: 50px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.carousel {
+  display: flex;
+  align-items: flex-end;
+  width: 320px;
+  overflow-y: hidden;
+}
+
+img:hover {
+  margin-right: 10px;
+  opacity: 0.85;
+}
+
+.slot {
+  margin-right: 20px;
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 320px) {
+  .position-1 {
+    height: 480px;
+    align-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .carousel {
+    display: flex;
+    align-items: flex-end;
+    width: 640px;
+    overflow-y: hidden;
+  }
+  .slot {
+    margin-right: 20px;
+    height: 150px;
+    width: 150px;
+  }
+  .position-3 {
+    height: 480px;
+    align-content: center;
+  }
+}

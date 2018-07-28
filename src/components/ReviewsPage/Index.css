@@ -1,0 +1,28 @@
+/* Responsive layout - Flexbox */
+
+#reviews-page {
+  /* display: flex; */
+  text-align: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+@media screen and (min-width: 678px) {
+  #reviews-page {
+    padding: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-container {
+    flex: 1 1 auto;
+  }
+
+  .details-wrapper {
+    padding: 30px;
+  }
+}
