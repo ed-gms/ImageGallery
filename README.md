@@ -1,3 +1,3 @@
 ## Demo
 
-![](/demo.gif)
+![](./public/demo.gif)
