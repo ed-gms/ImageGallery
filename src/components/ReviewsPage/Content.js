@@ -4,7 +4,7 @@ import './Content.css';
 const Content = props => {
   const { data, position } = props;
   return (
-    <div className="content">
+    <div className="content" ref={props.setRef}>
       <div className="text-box">
         <h4>{data.images[position].caption}</h4>
         <p>{data.images[position].details}</p>
